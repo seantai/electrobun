@@ -30,6 +30,8 @@ import * as Socket from "./core/Socket";
 import WGPU from "./webGPU";
 import webgpu from "./webgpuAdapter";
 import * as three from "three";
+import * as threeWebgpu from "three/webgpu";
+import * as threeTsl from "three/tsl";
 import * as babylon from "@babylonjs/core";
 import type { ElectrobunConfig } from "./ElectrobunConfig";
 import { GlobalShortcut, Screen, Session, WGPUBridge } from "./proc/native";
@@ -87,6 +89,8 @@ export {
 	WGPU,
 	webgpu,
 	three,
+	threeWebgpu,
+	threeTsl,
 	babylon,
 	GlobalShortcut,
 	Screen,
@@ -117,6 +121,8 @@ const Electrobun = {
 	WGPU,
 	webgpu,
 	three,
+	threeWebgpu,
+	threeTsl,
 	babylon,
 };
 

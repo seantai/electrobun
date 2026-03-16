@@ -49,6 +49,7 @@
 		"bump-cef": "bun scripts/update-cef-version.ts"
 	},
 	"devDependencies": {
+		"@types/three": "^0.183.1",
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
@@ -57,6 +58,6 @@
 		"png-to-ico": "^2.1.8",
 		"proxy-agent": "^6.5.0",
 		"rcedit": "^4.0.1",
-		"three": "^0.165.0"
+		"three": "^0.183.2"
 	}
 }
