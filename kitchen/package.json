@@ -7,7 +7,8 @@
 		"start:canary": "electrobun dev --env=canary"
 	},
 	"dependencies": {
-		"electrobun": "file:../package"
+		"electrobun": "file:../package",
+		"three": "^0.183.2"
 	},
 	"devDependencies": {
 		"typescript": "^5.9.3"

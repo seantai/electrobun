@@ -82,6 +82,9 @@ export default {
 			"playgrounds/wgpu-tag": {
 				entrypoint: "src/playgrounds/wgpu-tag/index.ts",
 			},
+			"playgrounds/threejs-webgpu": {
+				entrypoint: "src/playgrounds/threejs-webgpu/index.ts",
+			},
 		},
 		copy: {
 			"src/test-runner/index.html": "views/test-runner/index.html",
@@ -152,6 +155,8 @@ export default {
 				"views/playgrounds/webview-cleanup/assets/bunny.png",
 			"src/playgrounds/wgpu-tag/index.html":
 				"views/playgrounds/wgpu-tag/index.html",
+			"src/playgrounds/threejs-webgpu/index.html":
+				"views/playgrounds/threejs-webgpu/index.html",
 		},
 		mac: {
 			codesign: true,
